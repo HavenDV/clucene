@@ -94,7 +94,7 @@ DEFINE_DWORD()
 ########################################################################
 
 
-CHECK_REQUIRED_FUNCTIONS(  printf strftime wcscpy wcsncpy wcscat wcschr wcsstr wcslen 
+CHECK_REQUIRED_FUNCTIONS(  strftime wcscpy wcsncpy wcscat wcschr wcsstr wcslen 
                            wcscmp wcsncmp wcscspn )
 
 #todo: wcstoq is bsd equiv of wcstoll, we can use that...
