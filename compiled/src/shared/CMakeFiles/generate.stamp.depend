@@ -1,0 +1,111 @@
+# CMake generation dependency list for this directory.
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/CMakeLists.txt
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/cmake/DefineOptions.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/MacroMustDefine.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/MacroChooseType.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFileCXX.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/Macro_ChooseStatus.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/MacroChooseMisc.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/Macro_ChooseStatus.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/MacroChooseFunction.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/Macro_ChooseStatus.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/MacroChooseSymbol.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/Macro_ChooseStatus.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/MacroCheckGccVisibility.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/DefineFloat.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/DefineDword.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/DefineLongLongSyntax.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/DefineStaticSyntax.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/DefineMAXPATHValue.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckFloatByte.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckErrorHandling.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckHashmaps.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/Macro_ChooseStatus.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckNamespace.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckSnprintf.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckPthread.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckAtomicFunctions.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckStdCallFunctionExists.cpp.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckTypeSize.c.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CheckTypeSize/_CL_HAVE_TYPE_TCHAR.c
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeConfigurableFile.in
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/cmake/CheckFloatByte.cpp.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/TestForANSIForScope.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/TestForAnsiForScope.cxx
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/CLucene/clucene-config.h.cmake
+C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared/CLucene/_clucene-config.h.cmake

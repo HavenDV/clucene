@@ -221,6 +221,21 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=ZLIB_LIBRARY_RELEASE-NOTFOUND
 
 //Value Computed by CMake
+cl_demo_BINARY_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/src/demo
+
+//Value Computed by CMake
+cl_demo_SOURCE_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/demo
+
+//Value Computed by CMake
+clucene-core_BINARY_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/src/core
+
+//Dependencies for the target
+clucene-core_LIB_DEPENDS:STATIC=general;clucene-shared;
+
+//Value Computed by CMake
+clucene-core_SOURCE_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/core
+
+//Value Computed by CMake
 clucene-ext_BINARY_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/src/ext
 
 //Value Computed by CMake
@@ -229,8 +244,17 @@ clucene-ext_SOURCE_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clu
 //Value Computed by CMake
 clucene-shared_BINARY_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/src/shared
 
+//Dependencies for target
+clucene-shared_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 clucene-shared_SOURCE_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/shared
+
+//Value Computed by CMake
+clucene-test_BINARY_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/src/test
+
+//Value Computed by CMake
+clucene-test_SOURCE_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/src/test
 
 //Value Computed by CMake
 clucene_BINARY_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled
@@ -247,6 +271,8 @@ clucene_SOURCE_DIR:STATIC=C:/Users/haven/OneDrive/Documents/Repositories/clucene
 Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_INCLUDE_DIR
 Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+CMAKE_ANSI_FOR_SCOPE:INTERNAL=TRUE
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled
 //Major version of cmake used to create the current loaded cache
@@ -322,8 +348,10 @@ CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Does the compiler support ansi for scope.
+CMAKE_NO_ANSI_FOR_SCOPE:INTERNAL=0
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_RC_COMPILER
 CMAKE_RC_COMPILER-ADVANCED:INTERNAL=1
 CMAKE_RC_COMPILER_WORKS:INTERNAL=1
@@ -462,6 +490,8 @@ HAVE__CL_HAVE_TYPE_LONG:INTERNAL=TRUE
 //Result of TRY_COMPILE
 HAVE__CL_HAVE_TYPE_SIZE_T:INTERNAL=TRUE
 //Result of TRY_COMPILE
+HAVE__CL_HAVE_TYPE_TCHAR:INTERNAL=TRUE
+//Result of TRY_COMPILE
 HAVE__CL_HAVE_TYPE_UINT16_T:INTERNAL=TRUE
 //Result of TRY_COMPILE
 HAVE__CL_HAVE_TYPE_UINT32_T:INTERNAL=TRUE
@@ -469,6 +499,12 @@ HAVE__CL_HAVE_TYPE_UINT32_T:INTERNAL=TRUE
 HAVE__CL_HAVE_TYPE_UINT64_T:INTERNAL=TRUE
 //Result of TRY_COMPILE
 HAVE__CL_HAVE_TYPE_UINT8_T:INTERNAL=TRUE
+//Test LUCENE_STATIC_CONSTANT_SYNTAX
+LUCENE_STATIC_CONSTANT_SYNTAX:INTERNAL=1
+//Result of TRY_COMPILE
+LUCENE_STATIC_CONSTANT_SYNTAX_COMPILED:INTERNAL=TRUE
+//Result of TRY_RUN
+LUCENE_STATIC_CONSTANT_SYNTAX_EXITCODE:INTERNAL=0
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
@@ -483,8 +519,54 @@ _Boost_INCLUDE_DIR_LAST:INTERNAL=Boost_INCLUDE_DIR-NOTFOUND
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+//Chose function for fileHandleStat - _fstati64
+_CHOOSE_STATUS_FUNCTION_FILEHANDLESTAT:INTERNAL=ON
+//Chose function for fileSeek - _lseeki64
+_CHOOSE_STATUS_FUNCTION_FILESEEK:INTERNAL=ON
+//Chose function for fileSize - _filelengthi64
+_CHOOSE_STATUS_FUNCTION_FILESIZE:INTERNAL=ON
+//Chose function for fileStat - _stati64
+_CHOOSE_STATUS_FUNCTION_FILESTAT:INTERNAL=ON
+//Chose function for fileTell - _telli64
+_CHOOSE_STATUS_FUNCTION_FILETELL:INTERNAL=ON
+//Chose function for SLEEPFUNCTION - Sleep
+_CHOOSE_STATUS_FUNCTION_SLEEPFUNCTION:INTERNAL=ON
+//Chose function for _close - _close
+_CHOOSE_STATUS_FUNCTION__CLOSE:INTERNAL=ON
+//Chose function for _cl_open - _open
+_CHOOSE_STATUS_FUNCTION__CL_OPEN:INTERNAL=ON
+//Chose function for _ftime - _ftime
+_CHOOSE_STATUS_FUNCTION__FTIME:INTERNAL=ON
+//Chose function for _mkdir - _mkdir
+_CHOOSE_STATUS_FUNCTION__MKDIR:INTERNAL=ON
+//Chose function for _read - _read
+_CHOOSE_STATUS_FUNCTION__READ:INTERNAL=ON
+//Chose function for _realpath - using default
+_CHOOSE_STATUS_FUNCTION__REALPATH:INTERNAL=ON
+//Chose function for _rename - rename
+_CHOOSE_STATUS_FUNCTION__RENAME:INTERNAL=ON
+//Chose function for _snprintf - not found
+_CHOOSE_STATUS_FUNCTION__SNPRINTF:INTERNAL=ON
+//Chose function for _snwprintf - not found
+_CHOOSE_STATUS_FUNCTION__SNWPRINTF:INTERNAL=ON
+//Chose function for _unlink - _unlink
+_CHOOSE_STATUS_FUNCTION__UNLINK:INTERNAL=ON
+//Chose function for _write - _write
+_CHOOSE_STATUS_FUNCTION__WRITE:INTERNAL=ON
+//Chose option for HAVE_TYPE_CL_STAT_T - _stati64
+_CHOOSE_STATUS_OPTION_HAVE_TYPE_CL_STAT_T:INTERNAL=ON
 //Chose option for HAVE_TYPE__TIMEB - _timeb
 _CHOOSE_STATUS_OPTION_HAVE_TYPE__TIMEB:INTERNAL=ON
+//Chose symbol for _O_BINARY - _O_BINARY
+_CHOOSE_STATUS_SYMBOL__O_BINARY:INTERNAL=ON
+//Chose symbol for _O_RANDOM - _O_RANDOM
+_CHOOSE_STATUS_SYMBOL__O_RANDOM:INTERNAL=ON
+//Chose symbol for _S_IREAD - _S_IREAD
+_CHOOSE_STATUS_SYMBOL__S_IREAD:INTERNAL=ON
+//Chose symbol for _S_IWRITE - _S_IWRITE
+_CHOOSE_STATUS_SYMBOL__S_IWRITE:INTERNAL=ON
+//Chose symbol for _T - _T
+_CHOOSE_STATUS_SYMBOL__T:INTERNAL=ON
 //Chose type for int16_t - signed int16_t
 _CHOOSE_STATUS_TYPE_INT16_T:INTERNAL=ON
 //Chose type for int32_t - signed int32_t
@@ -495,6 +577,8 @@ _CHOOSE_STATUS_TYPE_INT64_T:INTERNAL=ON
 _CHOOSE_STATUS_TYPE_INT8_T:INTERNAL=ON
 //Chose type for size_t - unsigned size_t
 _CHOOSE_STATUS_TYPE_SIZE_T:INTERNAL=ON
+//Chose type for TCHAR -  TCHAR
+_CHOOSE_STATUS_TYPE_TCHAR:INTERNAL=ON
 //Chose type for uint16_t - unsigned uint16_t
 _CHOOSE_STATUS_TYPE_UINT16_T:INTERNAL=ON
 //Chose type for uint32_t - unsigned uint32_t
@@ -505,10 +589,144 @@ _CHOOSE_STATUS_TYPE_UINT64_T:INTERNAL=ON
 _CHOOSE_STATUS_TYPE_UINT8_T:INTERNAL=ON
 //Chose type for _cl_dword_t - unsigned long
 _CHOOSE_STATUS_TYPE__CL_DWORD_T:INTERNAL=ON
+//Have function filelengthi64
+_CL_HAVE_FUNCTION_FILELENGTHI64:INTERNAL=
+//Have function fstati64
+_CL_HAVE_FUNCTION_FSTATI64:INTERNAL=
+//Have function gettimeofday
+_CL_HAVE_FUNCTION_GETTIMEOFDAY:INTERNAL=
+//Have function lltoa
+_CL_HAVE_FUNCTION_LLTOA:INTERNAL=
+//Have function lltow
+_CL_HAVE_FUNCTION_LLTOW:INTERNAL=
+//Have function lseeki64
+_CL_HAVE_FUNCTION_LSEEKI64:INTERNAL=
+//Have function MapViewOfFile(0,0,0,0,0)
+_CL_HAVE_FUNCTION_MAPVIEWOFFILE:INTERNAL=1
+//Have function mmap
+_CL_HAVE_FUNCTION_MMAP:INTERNAL=
 //Have function printf
 _CL_HAVE_FUNCTION_PRINTF:INTERNAL=
+//Have function realpath
+_CL_HAVE_FUNCTION_REALPATH:INTERNAL=
+//Have function rename
+_CL_HAVE_FUNCTION_RENAME:INTERNAL=1
+//Have function Sleep(0)
+_CL_HAVE_FUNCTION_SLEEP:INTERNAL=1
+//Have function snprintf
+_CL_HAVE_FUNCTION_SNPRINTF:INTERNAL=
+//Have function snwprintf
+_CL_HAVE_FUNCTION_SNWPRINTF:INTERNAL=
+//Have function stati64
+_CL_HAVE_FUNCTION_STATI64:INTERNAL=
+//Have function strftime
+_CL_HAVE_FUNCTION_STRFTIME:INTERNAL=1
+//Have function strlwr
+_CL_HAVE_FUNCTION_STRLWR:INTERNAL=1
+//Have function strtoll
+_CL_HAVE_FUNCTION_STRTOLL:INTERNAL=1
+//Have function strupr
+_CL_HAVE_FUNCTION_STRUPR:INTERNAL=1
+//Have function telli64
+_CL_HAVE_FUNCTION_TELLI64:INTERNAL=
+//Have function usleep
+_CL_HAVE_FUNCTION_USLEEP:INTERNAL=
+//Have function wcscasecmp
+_CL_HAVE_FUNCTION_WCSCASECMP:INTERNAL=
+//Have function wcscat
+_CL_HAVE_FUNCTION_WCSCAT:INTERNAL=1
+//Have function wcschr
+_CL_HAVE_FUNCTION_WCSCHR:INTERNAL=1
+//Have function wcscmp
+_CL_HAVE_FUNCTION_WCSCMP:INTERNAL=1
+//Have function wcscpy
+_CL_HAVE_FUNCTION_WCSCPY:INTERNAL=1
+//Have function wcscspn
+_CL_HAVE_FUNCTION_WCSCSPN:INTERNAL=1
+//Have function wcsdup
+_CL_HAVE_FUNCTION_WCSDUP:INTERNAL=1
+//Have function wcsicmp
+_CL_HAVE_FUNCTION_WCSICMP:INTERNAL=1
+//Have function wcslen
+_CL_HAVE_FUNCTION_WCSLEN:INTERNAL=1
+//Have function wcsncmp
+_CL_HAVE_FUNCTION_WCSNCMP:INTERNAL=1
+//Have function wcsncpy
+_CL_HAVE_FUNCTION_WCSNCPY:INTERNAL=1
+//Have function wcsstr
+_CL_HAVE_FUNCTION_WCSSTR:INTERNAL=1
+//Have function wcstod
+_CL_HAVE_FUNCTION_WCSTOD:INTERNAL=1
+//Have function wcstoll
+_CL_HAVE_FUNCTION_WCSTOLL:INTERNAL=1
+//Have function wcsupr
+_CL_HAVE_FUNCTION_WCSUPR:INTERNAL=1
+//Have function wprintf
+_CL_HAVE_FUNCTION_WPRINTF:INTERNAL=
+//Have function _close((int)0)
+_CL_HAVE_FUNCTION__CLOSE:INTERNAL=1
+//Have function _filelengthi64
+_CL_HAVE_FUNCTION__FILELENGTHI64:INTERNAL=1
+//Have function _fstati64
+_CL_HAVE_FUNCTION__FSTATI64:INTERNAL=1
+//Have function _ftime(0)
+_CL_HAVE_FUNCTION__FTIME:INTERNAL=1
+//Have function _lseeki64
+_CL_HAVE_FUNCTION__LSEEKI64:INTERNAL=1
+//Have function _mkdir((const char*)0)
+_CL_HAVE_FUNCTION__MKDIR:INTERNAL=1
+//Have function _open(0,0,0)
+_CL_HAVE_FUNCTION__OPEN:INTERNAL=1
+//Have function _read((int)0, (void*)0, (unsigned int)0)
+_CL_HAVE_FUNCTION__READ:INTERNAL=1
+//Have function _snprintf
+_CL_HAVE_FUNCTION__SNPRINTF:INTERNAL=
+//Have function _snwprintf
+_CL_HAVE_FUNCTION__SNWPRINTF:INTERNAL=
+//Have function _stati64
+_CL_HAVE_FUNCTION__STATI64:INTERNAL=1
+//Have function _telli64
+_CL_HAVE_FUNCTION__TELLI64:INTERNAL=1
+//Have function _unlink((const char*)0)
+_CL_HAVE_FUNCTION__UNLINK:INTERNAL=1
+//Have function _vsnwprintf
+_CL_HAVE_FUNCTION__VSNWPRINTF:INTERNAL=
+//Have function _write((int)0, (const void*)0, (unsigned int)0)
+_CL_HAVE_FUNCTION__WRITE:INTERNAL=1
+//Test _CL_HAVE_GCC_ATOMIC_FUNCTIONS
+_CL_HAVE_GCC_ATOMIC_FUNCTIONS:INTERNAL=
+//Result of TRY_COMPILE
+_CL_HAVE_GCC_ATOMIC_FUNCTIONS_COMPILED:INTERNAL=FALSE
+//Test _CL_HAVE_NAMESPACES
+_CL_HAVE_NAMESPACES:INTERNAL=1
+//Result of TRY_COMPILE
+_CL_HAVE_NAMESPACES_COMPILED:INTERNAL=TRUE
+//Result of TRY_RUN
+_CL_HAVE_NAMESPACES_EXITCODE:INTERNAL=0
+//Result of TRY_COMPILE
+_CL_HAVE_NO_FLOAT_BYTE,:INTERNAL=TRUE
+//Test _CL_HAVE_OPTION_STATI64
+_CL_HAVE_OPTION_STATI64:INTERNAL=
+//Test _CL_HAVE_OPTION__STATI64
+_CL_HAVE_OPTION__STATI64:INTERNAL=1
 //Test _CL_HAVE_OPTION__TIMEB
 _CL_HAVE_OPTION__TIMEB:INTERNAL=1
+//Have symbol _O_BINARY
+_CL_HAVE_SYMBOL__O_BINARY:INTERNAL=1
+//Have symbol _O_RANDOM
+_CL_HAVE_SYMBOL__O_RANDOM:INTERNAL=1
+//Have symbol _S_IREAD
+_CL_HAVE_SYMBOL__S_IREAD:INTERNAL=1
+//Have symbol _S_IWRITE
+_CL_HAVE_SYMBOL__S_IWRITE:INTERNAL=1
+//Have symbol _T
+_CL_HAVE_SYMBOL__T:INTERNAL=1
+//Test _CL_HAVE_TRY_BLOCKS
+_CL_HAVE_TRY_BLOCKS:INTERNAL=1
+//Result of TRY_COMPILE
+_CL_HAVE_TRY_BLOCKS_COMPILED:INTERNAL=TRUE
+//Result of TRY_RUN
+_CL_HAVE_TRY_BLOCKS_EXITCODE:INTERNAL=0
 //CHECK_TYPE_SIZE: sizeof(DWORD)
 _CL_HAVE_TYPE_DWORD:INTERNAL=4
 //CHECK_TYPE_SIZE: sizeof(int16_t)
@@ -523,6 +741,8 @@ _CL_HAVE_TYPE_INT8_T:INTERNAL=1
 _CL_HAVE_TYPE_LONG:INTERNAL=4
 //CHECK_TYPE_SIZE: sizeof(size_t)
 _CL_HAVE_TYPE_SIZE_T:INTERNAL=4
+//CHECK_TYPE_SIZE: sizeof(TCHAR)
+_CL_HAVE_TYPE_TCHAR:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(uint16_t)
 _CL_HAVE_TYPE_UINT16_T:INTERNAL=2
 //CHECK_TYPE_SIZE: sizeof(uint32_t)
@@ -531,6 +751,8 @@ _CL_HAVE_TYPE_UINT32_T:INTERNAL=4
 _CL_HAVE_TYPE_UINT64_T:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(uint8_t)
 _CL_HAVE_TYPE_UINT8_T:INTERNAL=1
+//Test _CL_ILONGLONG_LL
+_CL_ILONGLONG_LL:INTERNAL=1
 //Have includes sys/time.h;time.h
 _CL_TIME_WITH_SYS_TIME:INTERNAL=
 

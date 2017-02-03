@@ -1947,3 +1947,2005 @@ Build succeeded.
 Time Elapsed 00:00:00.81
 
 
+Determining if the function strftime exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1108e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:10 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_1108e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1108e.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1108e.dir\Debug\cmTC_1108e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1108e.dir\Debug\cmTC_1108e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strftime /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1108e.dir\Debug\\" /Fd"cmTC_1108e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strftime /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1108e.dir\Debug\\" /Fd"cmTC_1108e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_1108e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_1108e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_1108e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1108e.dir\Debug\CheckFunctionExists.obj
+  cmTC_1108e.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_1108e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1108e.dir\Debug\cmTC_1108e.tlog\unsuccessfulbuild".
+  Touching "cmTC_1108e.dir\Debug\cmTC_1108e.tlog\cmTC_1108e.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_1108e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function wcscpy exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0b6ff.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:11 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_0b6ff.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0b6ff.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0b6ff.dir\Debug\cmTC_0b6ff.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0b6ff.dir\Debug\cmTC_0b6ff.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b6ff.dir\Debug\\" /Fd"cmTC_0b6ff.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b6ff.dir\Debug\\" /Fd"cmTC_0b6ff.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_0b6ff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_0b6ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_0b6ff.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0b6ff.dir\Debug\CheckFunctionExists.obj
+  cmTC_0b6ff.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_0b6ff.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0b6ff.dir\Debug\cmTC_0b6ff.tlog\unsuccessfulbuild".
+  Touching "cmTC_0b6ff.dir\Debug\cmTC_0b6ff.tlog\cmTC_0b6ff.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_0b6ff.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcsncpy exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4e3c1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:11 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_4e3c1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4e3c1.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4e3c1.dir\Debug\cmTC_4e3c1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4e3c1.dir\Debug\cmTC_4e3c1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsncpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e3c1.dir\Debug\\" /Fd"cmTC_4e3c1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsncpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e3c1.dir\Debug\\" /Fd"cmTC_4e3c1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_4e3c1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_4e3c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_4e3c1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4e3c1.dir\Debug\CheckFunctionExists.obj
+  cmTC_4e3c1.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_4e3c1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4e3c1.dir\Debug\cmTC_4e3c1.tlog\unsuccessfulbuild".
+  Touching "cmTC_4e3c1.dir\Debug\cmTC_4e3c1.tlog\cmTC_4e3c1.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_4e3c1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.45
+
+
+Determining if the function wcscat exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_30be9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:12 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_30be9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_30be9.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_30be9.dir\Debug\cmTC_30be9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_30be9.dir\Debug\cmTC_30be9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30be9.dir\Debug\\" /Fd"cmTC_30be9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30be9.dir\Debug\\" /Fd"cmTC_30be9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_30be9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_30be9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_30be9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_30be9.dir\Debug\CheckFunctionExists.obj
+  cmTC_30be9.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_30be9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_30be9.dir\Debug\cmTC_30be9.tlog\unsuccessfulbuild".
+  Touching "cmTC_30be9.dir\Debug\cmTC_30be9.tlog\cmTC_30be9.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_30be9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcschr exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_96999.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:12 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_96999.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_96999.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_96999.dir\Debug\cmTC_96999.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_96999.dir\Debug\cmTC_96999.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcschr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96999.dir\Debug\\" /Fd"cmTC_96999.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcschr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96999.dir\Debug\\" /Fd"cmTC_96999.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_96999.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_96999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_96999.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_96999.dir\Debug\CheckFunctionExists.obj
+  cmTC_96999.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_96999.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_96999.dir\Debug\cmTC_96999.tlog\unsuccessfulbuild".
+  Touching "cmTC_96999.dir\Debug\cmTC_96999.tlog\cmTC_96999.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_96999.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.45
+
+
+Determining if the function wcsstr exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7f6a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:13 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_7f6a9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7f6a9.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7f6a9.dir\Debug\cmTC_7f6a9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7f6a9.dir\Debug\cmTC_7f6a9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f6a9.dir\Debug\\" /Fd"cmTC_7f6a9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f6a9.dir\Debug\\" /Fd"cmTC_7f6a9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_7f6a9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_7f6a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_7f6a9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7f6a9.dir\Debug\CheckFunctionExists.obj
+  cmTC_7f6a9.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_7f6a9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_7f6a9.dir\Debug\cmTC_7f6a9.tlog\unsuccessfulbuild".
+  Touching "cmTC_7f6a9.dir\Debug\cmTC_7f6a9.tlog\cmTC_7f6a9.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_7f6a9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcslen exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1865a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:13 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_1865a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1865a.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1865a.dir\Debug\cmTC_1865a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1865a.dir\Debug\cmTC_1865a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcslen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1865a.dir\Debug\\" /Fd"cmTC_1865a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcslen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1865a.dir\Debug\\" /Fd"cmTC_1865a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_1865a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_1865a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_1865a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1865a.dir\Debug\CheckFunctionExists.obj
+  cmTC_1865a.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_1865a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1865a.dir\Debug\cmTC_1865a.tlog\unsuccessfulbuild".
+  Touching "cmTC_1865a.dir\Debug\cmTC_1865a.tlog\cmTC_1865a.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_1865a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.45
+
+
+Determining if the function wcscmp exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_19e02.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:14 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_19e02.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_19e02.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_19e02.dir\Debug\cmTC_19e02.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_19e02.dir\Debug\cmTC_19e02.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19e02.dir\Debug\\" /Fd"cmTC_19e02.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19e02.dir\Debug\\" /Fd"cmTC_19e02.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_19e02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_19e02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_19e02.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_19e02.dir\Debug\CheckFunctionExists.obj
+  cmTC_19e02.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_19e02.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_19e02.dir\Debug\cmTC_19e02.tlog\unsuccessfulbuild".
+  Touching "cmTC_19e02.dir\Debug\cmTC_19e02.tlog\cmTC_19e02.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_19e02.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcsncmp exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_de434.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:14 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_de434.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_de434.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_de434.dir\Debug\cmTC_de434.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_de434.dir\Debug\cmTC_de434.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsncmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de434.dir\Debug\\" /Fd"cmTC_de434.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsncmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de434.dir\Debug\\" /Fd"cmTC_de434.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_de434.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_de434.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_de434.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_de434.dir\Debug\CheckFunctionExists.obj
+  cmTC_de434.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_de434.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_de434.dir\Debug\cmTC_de434.tlog\unsuccessfulbuild".
+  Touching "cmTC_de434.dir\Debug\cmTC_de434.tlog\cmTC_de434.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_de434.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function wcscspn exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ce09a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:15 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_ce09a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ce09a.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ce09a.dir\Debug\cmTC_ce09a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ce09a.dir\Debug\cmTC_ce09a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscspn /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce09a.dir\Debug\\" /Fd"cmTC_ce09a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscspn /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce09a.dir\Debug\\" /Fd"cmTC_ce09a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_ce09a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_ce09a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_ce09a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ce09a.dir\Debug\CheckFunctionExists.obj
+  cmTC_ce09a.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_ce09a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ce09a.dir\Debug\cmTC_ce09a.tlog\unsuccessfulbuild".
+  Touching "cmTC_ce09a.dir\Debug\cmTC_ce09a.tlog\cmTC_ce09a.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_ce09a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcsupr exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_02d6f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:16 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_02d6f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_02d6f.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_02d6f.dir\Debug\cmTC_02d6f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_02d6f.dir\Debug\cmTC_02d6f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsupr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02d6f.dir\Debug\\" /Fd"cmTC_02d6f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsupr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02d6f.dir\Debug\\" /Fd"cmTC_02d6f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_02d6f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_02d6f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_02d6f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_02d6f.dir\Debug\CheckFunctionExists.obj
+  cmTC_02d6f.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_02d6f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_02d6f.dir\Debug\cmTC_02d6f.tlog\unsuccessfulbuild".
+  Touching "cmTC_02d6f.dir\Debug\cmTC_02d6f.tlog\cmTC_02d6f.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_02d6f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcsicmp exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_162c8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:17 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_162c8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_162c8.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_162c8.dir\Debug\cmTC_162c8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_162c8.dir\Debug\cmTC_162c8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsicmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_162c8.dir\Debug\\" /Fd"cmTC_162c8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsicmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_162c8.dir\Debug\\" /Fd"cmTC_162c8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_162c8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_162c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_162c8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_162c8.dir\Debug\CheckFunctionExists.obj
+  cmTC_162c8.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_162c8.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_162c8.dir\Debug\cmTC_162c8.tlog\unsuccessfulbuild".
+  Touching "cmTC_162c8.dir\Debug\cmTC_162c8.tlog\cmTC_162c8.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_162c8.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function wcstoll exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dfdc4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:17 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_dfdc4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_dfdc4.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_dfdc4.dir\Debug\cmTC_dfdc4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_dfdc4.dir\Debug\cmTC_dfdc4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfdc4.dir\Debug\\" /Fd"cmTC_dfdc4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfdc4.dir\Debug\\" /Fd"cmTC_dfdc4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_dfdc4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_dfdc4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_dfdc4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_dfdc4.dir\Debug\CheckFunctionExists.obj
+  cmTC_dfdc4.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_dfdc4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_dfdc4.dir\Debug\cmTC_dfdc4.tlog\unsuccessfulbuild".
+  Touching "cmTC_dfdc4.dir\Debug\cmTC_dfdc4.tlog\cmTC_dfdc4.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_dfdc4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining if the function wcstod exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1de58.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:19 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_1de58.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1de58.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1de58.dir\Debug\cmTC_1de58.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1de58.dir\Debug\cmTC_1de58.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstod /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1de58.dir\Debug\\" /Fd"cmTC_1de58.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstod /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1de58.dir\Debug\\" /Fd"cmTC_1de58.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_1de58.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_1de58.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_1de58.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1de58.dir\Debug\CheckFunctionExists.obj
+  cmTC_1de58.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_1de58.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1de58.dir\Debug\cmTC_1de58.tlog\unsuccessfulbuild".
+  Touching "cmTC_1de58.dir\Debug\cmTC_1de58.tlog\cmTC_1de58.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_1de58.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function wcsdup exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c9a56.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:19 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_c9a56.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c9a56.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c9a56.dir\Debug\cmTC_c9a56.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c9a56.dir\Debug\cmTC_c9a56.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9a56.dir\Debug\\" /Fd"cmTC_c9a56.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9a56.dir\Debug\\" /Fd"cmTC_c9a56.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_c9a56.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_c9a56.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_c9a56.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c9a56.dir\Debug\CheckFunctionExists.obj
+  cmTC_c9a56.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_c9a56.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c9a56.dir\Debug\cmTC_c9a56.tlog\unsuccessfulbuild".
+  Touching "cmTC_c9a56.dir\Debug\cmTC_c9a56.tlog\cmTC_c9a56.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_c9a56.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.45
+
+
+Determining if the function strupr exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_41e23.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:20 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_41e23.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_41e23.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_41e23.dir\Debug\cmTC_41e23.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_41e23.dir\Debug\cmTC_41e23.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strupr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41e23.dir\Debug\\" /Fd"cmTC_41e23.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strupr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41e23.dir\Debug\\" /Fd"cmTC_41e23.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_41e23.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_41e23.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_41e23.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_41e23.dir\Debug\CheckFunctionExists.obj
+  cmTC_41e23.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_41e23.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_41e23.dir\Debug\cmTC_41e23.tlog\unsuccessfulbuild".
+  Touching "cmTC_41e23.dir\Debug\cmTC_41e23.tlog\cmTC_41e23.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_41e23.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function strlwr exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_47b3a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:21 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_47b3a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_47b3a.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_47b3a.dir\Debug\cmTC_47b3a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_47b3a.dir\Debug\cmTC_47b3a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlwr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47b3a.dir\Debug\\" /Fd"cmTC_47b3a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlwr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47b3a.dir\Debug\\" /Fd"cmTC_47b3a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_47b3a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_47b3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_47b3a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_47b3a.dir\Debug\CheckFunctionExists.obj
+  cmTC_47b3a.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_47b3a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_47b3a.dir\Debug\cmTC_47b3a.tlog\unsuccessfulbuild".
+  Touching "cmTC_47b3a.dir\Debug\cmTC_47b3a.tlog\cmTC_47b3a.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_47b3a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2e444.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:22 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_2e444.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2e444.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2e444.dir\Debug\cmTC_2e444.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2e444.dir\Debug\cmTC_2e444.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e444.dir\Debug\\" /Fd"cmTC_2e444.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e444.dir\Debug\\" /Fd"cmTC_2e444.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_2e444.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_2e444.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_2e444.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2e444.dir\Debug\CheckFunctionExists.obj
+  cmTC_2e444.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_2e444.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2e444.dir\Debug\cmTC_2e444.tlog\unsuccessfulbuild".
+  Touching "cmTC_2e444.dir\Debug\cmTC_2e444.tlog\cmTC_2e444.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_2e444.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the stdcall function MapViewOfFile(0,0,0,0,0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3984c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:24 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_3984c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3984c.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3984c.dir\Debug\cmTC_3984c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3984c.dir\Debug\cmTC_3984c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3984c.dir\Debug\\" /Fd"cmTC_3984c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3984c.dir\Debug\\" /Fd"cmTC_3984c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_3984c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_3984c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_3984c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3984c.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_3984c.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_3984c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3984c.dir\Debug\cmTC_3984c.tlog\unsuccessfulbuild".
+  Touching "cmTC_3984c.dir\Debug\cmTC_3984c.tlog\cmTC_3984c.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_3984c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  MapViewOfFile(0,0,0,0,0);
+  return 0;
+}
+
+
+Determining if the function _fstati64 exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_406d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:25 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_406d0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_406d0.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_406d0.dir\Debug\cmTC_406d0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_406d0.dir\Debug\cmTC_406d0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_fstati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_406d0.dir\Debug\\" /Fd"cmTC_406d0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_fstati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_406d0.dir\Debug\\" /Fd"cmTC_406d0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_406d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_406d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_406d0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_406d0.dir\Debug\CheckFunctionExists.obj
+  cmTC_406d0.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_406d0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_406d0.dir\Debug\cmTC_406d0.tlog\unsuccessfulbuild".
+  Touching "cmTC_406d0.dir\Debug\cmTC_406d0.tlog\cmTC_406d0.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_406d0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining if the function _stati64 exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_21da5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:26 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_21da5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_21da5.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_21da5.dir\Debug\cmTC_21da5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_21da5.dir\Debug\cmTC_21da5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_stati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21da5.dir\Debug\\" /Fd"cmTC_21da5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_stati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21da5.dir\Debug\\" /Fd"cmTC_21da5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_21da5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_21da5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_21da5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_21da5.dir\Debug\CheckFunctionExists.obj
+  cmTC_21da5.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_21da5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_21da5.dir\Debug\cmTC_21da5.tlog\unsuccessfulbuild".
+  Touching "cmTC_21da5.dir\Debug\cmTC_21da5.tlog\cmTC_21da5.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_21da5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function _filelengthi64 exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f8c29.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:28 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_f8c29.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f8c29.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f8c29.dir\Debug\cmTC_f8c29.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f8c29.dir\Debug\cmTC_f8c29.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_filelengthi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8c29.dir\Debug\\" /Fd"cmTC_f8c29.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_filelengthi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8c29.dir\Debug\\" /Fd"cmTC_f8c29.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_f8c29.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_f8c29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_f8c29.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f8c29.dir\Debug\CheckFunctionExists.obj
+  cmTC_f8c29.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_f8c29.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f8c29.dir\Debug\cmTC_f8c29.tlog\unsuccessfulbuild".
+  Touching "cmTC_f8c29.dir\Debug\cmTC_f8c29.tlog\cmTC_f8c29.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_f8c29.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+Determining if the function _lseeki64 exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4ff4c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:29 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_4ff4c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4ff4c.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4ff4c.dir\Debug\cmTC_4ff4c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4ff4c.dir\Debug\cmTC_4ff4c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_lseeki64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ff4c.dir\Debug\\" /Fd"cmTC_4ff4c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_lseeki64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ff4c.dir\Debug\\" /Fd"cmTC_4ff4c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_4ff4c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_4ff4c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_4ff4c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4ff4c.dir\Debug\CheckFunctionExists.obj
+  cmTC_4ff4c.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_4ff4c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4ff4c.dir\Debug\cmTC_4ff4c.tlog\unsuccessfulbuild".
+  Touching "cmTC_4ff4c.dir\Debug\cmTC_4ff4c.tlog\cmTC_4ff4c.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_4ff4c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION__STATI64 succeeded with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_55b10.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:30 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_55b10.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_55b10.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_55b10.dir\Debug\cmTC_55b10.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_55b10.dir\Debug\cmTC_55b10.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_HAVE_OPTION__STATI64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55b10.dir\Debug\\" /Fd"cmTC_55b10.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_HAVE_OPTION__STATI64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55b10.dir\Debug\\" /Fd"cmTC_55b10.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx(7): warning C4101: 'x': unreferenced local variable [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_55b10.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_55b10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_55b10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_55b10.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_55b10.dir\Debug\src.obj
+  cmTC_55b10.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_55b10.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_55b10.dir\Debug\cmTC_55b10.tlog\unsuccessfulbuild".
+  Touching "cmTC_55b10.dir\Debug\cmTC_55b10.tlog\cmTC_55b10.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_55b10.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_55b10.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx(7): warning C4101: 'x': unreferenced local variable [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_55b10.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct _stati64 x; 
+            	    }
+Determining if the function _telli64 exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_77868.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:31 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_77868.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_77868.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_77868.dir\Debug\cmTC_77868.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_77868.dir\Debug\cmTC_77868.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_telli64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77868.dir\Debug\\" /Fd"cmTC_77868.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_telli64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77868.dir\Debug\\" /Fd"cmTC_77868.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_77868.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_77868.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_77868.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_77868.dir\Debug\CheckFunctionExists.obj
+  cmTC_77868.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_77868.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_77868.dir\Debug\cmTC_77868.tlog\unsuccessfulbuild".
+  Touching "cmTC_77868.dir\Debug\cmTC_77868.tlog\cmTC_77868.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_77868.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the function rename exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_11c11.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:32 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_11c11.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_11c11.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_11c11.dir\Debug\cmTC_11c11.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_11c11.dir\Debug\cmTC_11c11.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rename /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11c11.dir\Debug\\" /Fd"cmTC_11c11.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rename /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11c11.dir\Debug\\" /Fd"cmTC_11c11.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_11c11.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_11c11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_11c11.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_11c11.dir\Debug\CheckFunctionExists.obj
+  cmTC_11c11.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_11c11.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_11c11.dir\Debug\cmTC_11c11.tlog\unsuccessfulbuild".
+  Touching "cmTC_11c11.dir\Debug\cmTC_11c11.tlog\cmTC_11c11.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_11c11.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the stdcall function _close((int)0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_16206.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:33 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_16206.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_16206.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_16206.dir\Debug\cmTC_16206.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_16206.dir\Debug\cmTC_16206.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16206.dir\Debug\\" /Fd"cmTC_16206.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16206.dir\Debug\\" /Fd"cmTC_16206.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_16206.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_16206.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_16206.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_16206.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_16206.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_16206.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_16206.dir\Debug\cmTC_16206.tlog\unsuccessfulbuild".
+  Touching "cmTC_16206.dir\Debug\cmTC_16206.tlog\cmTC_16206.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_16206.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _close((int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _read((int)0, (void*)0, (unsigned int)0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f3cd8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:34 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_f3cd8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f3cd8.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f3cd8.dir\Debug\cmTC_f3cd8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f3cd8.dir\Debug\cmTC_f3cd8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3cd8.dir\Debug\\" /Fd"cmTC_f3cd8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3cd8.dir\Debug\\" /Fd"cmTC_f3cd8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_f3cd8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_f3cd8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_f3cd8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f3cd8.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_f3cd8.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_f3cd8.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f3cd8.dir\Debug\cmTC_f3cd8.tlog\unsuccessfulbuild".
+  Touching "cmTC_f3cd8.dir\Debug\cmTC_f3cd8.tlog\cmTC_f3cd8.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_f3cd8.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _read((int)0, (void*)0, (unsigned int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _open(0,0,0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9f357.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:35 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_9f357.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9f357.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9f357.dir\Debug\cmTC_9f357.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9f357.dir\Debug\cmTC_9f357.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f357.dir\Debug\\" /Fd"cmTC_9f357.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f357.dir\Debug\\" /Fd"cmTC_9f357.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp(14): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_9f357.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_io.h(388): note: see declaration of '_open'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_9f357.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_9f357.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_9f357.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9f357.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_9f357.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_9f357.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9f357.dir\Debug\cmTC_9f357.tlog\unsuccessfulbuild".
+  Touching "cmTC_9f357.dir\Debug\cmTC_9f357.tlog\cmTC_9f357.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_9f357.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_9f357.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp(14): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_9f357.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _open(0,0,0);
+  return 0;
+}
+
+
+Determining if the stdcall function _write((int)0, (const void*)0, (unsigned int)0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_93cf3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:36 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_93cf3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_93cf3.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_93cf3.dir\Debug\cmTC_93cf3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_93cf3.dir\Debug\cmTC_93cf3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_93cf3.dir\Debug\\" /Fd"cmTC_93cf3.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_93cf3.dir\Debug\\" /Fd"cmTC_93cf3.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_93cf3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_93cf3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_93cf3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_93cf3.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_93cf3.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_93cf3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_93cf3.dir\Debug\cmTC_93cf3.tlog\unsuccessfulbuild".
+  Touching "cmTC_93cf3.dir\Debug\cmTC_93cf3.tlog\cmTC_93cf3.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_93cf3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _write((int)0, (const void*)0, (unsigned int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _unlink((const char*)0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_235d1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:37 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_235d1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_235d1.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_235d1.dir\Debug\cmTC_235d1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_235d1.dir\Debug\cmTC_235d1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_235d1.dir\Debug\\" /Fd"cmTC_235d1.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_235d1.dir\Debug\\" /Fd"cmTC_235d1.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_235d1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_235d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_235d1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_235d1.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_235d1.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_235d1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_235d1.dir\Debug\cmTC_235d1.tlog\unsuccessfulbuild".
+  Touching "cmTC_235d1.dir\Debug\cmTC_235d1.tlog\cmTC_235d1.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_235d1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _unlink((const char*)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _ftime(0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_028e4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:38 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_028e4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_028e4.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_028e4.dir\Debug\cmTC_028e4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_028e4.dir\Debug\cmTC_028e4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_028e4.dir\Debug\\" /Fd"cmTC_028e4.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_028e4.dir\Debug\\" /Fd"cmTC_028e4.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp(14): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_028e4.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\sys/timeb.h(76): note: see declaration of '_ftime64'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_028e4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_028e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_028e4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_028e4.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_028e4.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_028e4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_028e4.dir\Debug\cmTC_028e4.tlog\unsuccessfulbuild".
+  Touching "cmTC_028e4.dir\Debug\cmTC_028e4.tlog\cmTC_028e4.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_028e4.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_028e4.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp(14): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_028e4.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _ftime(0);
+  return 0;
+}
+
+
+Determining if the stdcall function _mkdir((const char*)0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ba81f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:39 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_ba81f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ba81f.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ba81f.dir\Debug\cmTC_ba81f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ba81f.dir\Debug\cmTC_ba81f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ba81f.dir\Debug\\" /Fd"cmTC_ba81f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ba81f.dir\Debug\\" /Fd"cmTC_ba81f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_ba81f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_ba81f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_ba81f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ba81f.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_ba81f.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_ba81f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ba81f.dir\Debug\cmTC_ba81f.tlog\unsuccessfulbuild".
+  Touching "cmTC_ba81f.dir\Debug\cmTC_ba81f.tlog\cmTC_ba81f.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_ba81f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _mkdir((const char*)0);
+  return 0;
+}
+
+
+Determining if the stdcall function Sleep(0) exists passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b798e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:40 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_b798e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b798e.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b798e.dir\Debug\cmTC_b798e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b798e.dir\Debug\cmTC_b798e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b798e.dir\Debug\\" /Fd"cmTC_b798e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b798e.dir\Debug\\" /Fd"cmTC_b798e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckStdCallFunctionExists.cpp
+  
+  CheckStdCallFunctionExists.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_b798e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_b798e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_b798e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b798e.dir\Debug\CheckStdCallFunctionExists.obj
+  cmTC_b798e.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_b798e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b798e.dir\Debug\cmTC_b798e.tlog\unsuccessfulbuild".
+  Touching "cmTC_b798e.dir\Debug\cmTC_b798e.tlog\cmTC_b798e.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_b798e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  Sleep(0);
+  return 0;
+}
+
+
+Determining if the _O_RANDOM exist passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5ea38.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:42 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_5ea38.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5ea38.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5ea38.dir\Debug\cmTC_5ea38.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5ea38.dir\Debug\cmTC_5ea38.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ea38.dir\Debug\\" /Fd"cmTC_5ea38.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ea38.dir\Debug\\" /Fd"cmTC_5ea38.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_5ea38.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_5ea38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_5ea38.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5ea38.dir\Debug\CheckSymbolExists.obj
+  cmTC_5ea38.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_5ea38.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5ea38.dir\Debug\cmTC_5ea38.tlog\unsuccessfulbuild".
+  Touching "cmTC_5ea38.dir\Debug\cmTC_5ea38.tlog\cmTC_5ea38.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_5ea38.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+File C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _O_RANDOM
+  return ((int*)(&_O_RANDOM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _O_BINARY exist passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_51d87.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:43 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_51d87.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_51d87.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_51d87.dir\Debug\cmTC_51d87.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_51d87.dir\Debug\cmTC_51d87.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51d87.dir\Debug\\" /Fd"cmTC_51d87.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51d87.dir\Debug\\" /Fd"cmTC_51d87.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_51d87.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_51d87.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_51d87.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_51d87.dir\Debug\CheckSymbolExists.obj
+  cmTC_51d87.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_51d87.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_51d87.dir\Debug\cmTC_51d87.tlog\unsuccessfulbuild".
+  Touching "cmTC_51d87.dir\Debug\cmTC_51d87.tlog\cmTC_51d87.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_51d87.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+File C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _O_BINARY
+  return ((int*)(&_O_BINARY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _S_IREAD exist passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_08012.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:44 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_08012.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_08012.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_08012.dir\Debug\cmTC_08012.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_08012.dir\Debug\cmTC_08012.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08012.dir\Debug\\" /Fd"cmTC_08012.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08012.dir\Debug\\" /Fd"cmTC_08012.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_08012.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_08012.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_08012.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_08012.dir\Debug\CheckSymbolExists.obj
+  cmTC_08012.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_08012.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_08012.dir\Debug\cmTC_08012.tlog\unsuccessfulbuild".
+  Touching "cmTC_08012.dir\Debug\cmTC_08012.tlog\cmTC_08012.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_08012.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+File C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _S_IREAD
+  return ((int*)(&_S_IREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _S_IWRITE exist passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e7110.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:44 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_e7110.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e7110.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e7110.dir\Debug\cmTC_e7110.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e7110.dir\Debug\cmTC_e7110.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7110.dir\Debug\\" /Fd"cmTC_e7110.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7110.dir\Debug\\" /Fd"cmTC_e7110.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_e7110.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_e7110.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_e7110.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e7110.dir\Debug\CheckSymbolExists.obj
+  cmTC_e7110.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_e7110.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e7110.dir\Debug\cmTC_e7110.tlog\unsuccessfulbuild".
+  Touching "cmTC_e7110.dir\Debug\cmTC_e7110.tlog\cmTC_e7110.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_e7110.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+File C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _S_IWRITE
+  return ((int*)(&_S_IWRITE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of TCHAR passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a5417.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:45 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_a5417.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a5417.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a5417.dir\Debug\cmTC_a5417.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a5417.dir\Debug\cmTC_a5417.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5417.dir\Debug\\" /Fd"cmTC_a5417.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_TCHAR.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5417.dir\Debug\\" /Fd"cmTC_a5417.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_TCHAR.c
+  
+  _CL_HAVE_TYPE_TCHAR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_a5417.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_a5417.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_a5417.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a5417.dir\Debug\_CL_HAVE_TYPE_TCHAR.obj
+  cmTC_a5417.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_a5417.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a5417.dir\Debug\cmTC_a5417.tlog\unsuccessfulbuild".
+  Touching "cmTC_a5417.dir\Debug\cmTC_a5417.tlog\cmTC_a5417.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_a5417.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Determining if the _T exist passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_30269.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:45 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_30269.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_30269.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_30269.dir\Debug\cmTC_30269.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_30269.dir\Debug\cmTC_30269.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30269.dir\Debug\\" /Fd"cmTC_30269.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30269.dir\Debug\\" /Fd"cmTC_30269.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_30269.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_30269.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_30269.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_30269.dir\Debug\CheckSymbolExists.obj
+  cmTC_30269.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_30269.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_30269.dir\Debug\cmTC_30269.tlog\unsuccessfulbuild".
+  Touching "cmTC_30269.dir\Debug\cmTC_30269.tlog\cmTC_30269.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_30269.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+File C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _T
+  return ((int*)(&_T))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _CL_HAVE_TRY_BLOCKS succeeded with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c726e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:46 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_c726e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c726e.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c726e.dir\Debug\cmTC_c726e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c726e.dir\Debug\cmTC_c726e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_HAVE_TRY_BLOCKS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c726e.dir\Debug\\" /Fd"cmTC_c726e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_HAVE_TRY_BLOCKS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c726e.dir\Debug\\" /Fd"cmTC_c726e.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_c726e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_c726e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_c726e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c726e.dir\Debug\src.obj
+  cmTC_c726e.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_c726e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c726e.dir\Debug\cmTC_c726e.tlog\unsuccessfulbuild".
+  Touching "cmTC_c726e.dir\Debug\cmTC_c726e.tlog\cmTC_c726e.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_c726e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+Return value: 1
+Source file was:
+
+    	void foo() { try{ return; } catch( ... ){} }
+    	int main(){ foo(); return 0; }
+Performing C++ SOURCE FILE Test _CL_HAVE_NAMESPACES succeeded with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4d289.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:48 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_4d289.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4d289.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4d289.dir\Debug\cmTC_4d289.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4d289.dir\Debug\cmTC_4d289.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_HAVE_NAMESPACES /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4d289.dir\Debug\\" /Fd"cmTC_4d289.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_HAVE_NAMESPACES /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4d289.dir\Debug\\" /Fd"cmTC_4d289.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_4d289.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_4d289.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_4d289.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4d289.dir\Debug\src.obj
+  cmTC_4d289.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_4d289.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4d289.dir\Debug\cmTC_4d289.tlog\unsuccessfulbuild".
+  Touching "cmTC_4d289.dir\Debug\cmTC_4d289.tlog\cmTC_4d289.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_4d289.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.47
+
+Return value: 1
+Source file was:
+
+    	namespace Outer { namespace Inner { int i = 0; }}
+    	int main(){ using namespace Outer::Inner; return i; }
+Performing C++ SOURCE FILE Test _CL_ILONGLONG_LL succeeded with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ac09c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:48 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_ac09c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ac09c.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ac09c.dir\Debug\cmTC_ac09c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ac09c.dir\Debug\cmTC_ac09c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_ILONGLONG_LL /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac09c.dir\Debug\\" /Fd"cmTC_ac09c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CL_ILONGLONG_LL /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac09c.dir\Debug\\" /Fd"cmTC_ac09c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_ac09c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_ac09c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_ac09c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ac09c.dir\Debug\src.obj
+  cmTC_ac09c.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_ac09c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ac09c.dir\Debug\cmTC_ac09c.tlog\unsuccessfulbuild".
+  Touching "cmTC_ac09c.dir\Debug\cmTC_ac09c.tlog\cmTC_ac09c.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_ac09c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+Source file was:
+int main(){ int x = (int)(1234LL); }
+Performing C++ SOURCE FILE Test LUCENE_STATIC_CONSTANT_SYNTAX succeeded with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8d1b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:49 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_8d1b6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8d1b6.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8d1b6.dir\Debug\cmTC_8d1b6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8d1b6.dir\Debug\cmTC_8d1b6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D LUCENE_STATIC_CONSTANT_SYNTAX /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8d1b6.dir\Debug\\" /Fd"cmTC_8d1b6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D LUCENE_STATIC_CONSTANT_SYNTAX /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8d1b6.dir\Debug\\" /Fd"cmTC_8d1b6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx(1): warning C4101: 'a': unreferenced local variable [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_8d1b6.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_8d1b6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_8d1b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_8d1b6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8d1b6.dir\Debug\src.obj
+  cmTC_8d1b6.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_8d1b6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8d1b6.dir\Debug\cmTC_8d1b6.tlog\unsuccessfulbuild".
+  Touching "cmTC_8d1b6.dir\Debug\cmTC_8d1b6.tlog\cmTC_8d1b6.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_8d1b6.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_8d1b6.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\src.cxx(1): warning C4101: 'a': unreferenced local variable [C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_8d1b6.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+Return value: 1
+Source file was:
+class x{public: static const int SCI=55; }; int main(){ x a; if ( a.SCI!=55 ) throw "err"; return 0; }
+Determining if the CXX compiler understands ansi for scopes passed with the following output:
+Change Dir: C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_12913.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/4/2017 8:34:49 AM.
+Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_12913.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_12913.dir\Debug\".
+  Creating directory "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_12913.dir\Debug\cmTC_12913.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_12913.dir\Debug\cmTC_12913.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_12913.dir\Debug\\" /Fd"cmTC_12913.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\TestForAnsiForScope.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_12913.dir\Debug\\" /Fd"cmTC_12913.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\TestForAnsiForScope.cxx"
+  
+  TestForAnsiForScope.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_12913.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_12913.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/haven/OneDrive/Documents/Repositories/clucene/compiled/CMakeFiles/CMakeTmp/Debug/cmTC_12913.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_12913.dir\Debug\TestForAnsiForScope.obj
+  cmTC_12913.vcxproj -> C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\Debug\cmTC_12913.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_12913.dir\Debug\cmTC_12913.tlog\unsuccessfulbuild".
+  Touching "cmTC_12913.dir\Debug\cmTC_12913.tlog\cmTC_12913.lastbuildstate".
+Done Building Project "C:\Users\haven\OneDrive\Documents\Repositories\clucene\compiled\CMakeFiles\CMakeTmp\cmTC_12913.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+

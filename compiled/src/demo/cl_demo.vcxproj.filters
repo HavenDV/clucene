@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\haven\OneDrive\Documents\Repositories\clucene\src\demo\IndexFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\haven\OneDrive\Documents\Repositories\clucene\src\demo\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\haven\OneDrive\Documents\Repositories\clucene\src\demo\SearchFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\haven\OneDrive\Documents\Repositories\clucene\src\demo\Statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\haven\OneDrive\Documents\Repositories\clucene\src\demo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7AAB3B70-5011-31AB-8080-9D8AAD9BCCED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
