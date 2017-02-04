@@ -1,63 +1,57 @@
-CLucene README
-==============
+0) Building Clucene requires installing CMake first. Install from http://www.cmake.org/
+Latest versision is cmake-3.4.2-win32-x86.exe for windows
 
-------------------------------------------------------
-CLucene is a C++ port of Lucene.
-It is a high-performance, full-featured text search 
-engine written in C++. CLucene is faster than lucene
-as it is written in C++.
-------------------------------------------------------
+1)  Go to the temp directory(c:\alpha-tpe-apps\temp) 
 
-CLucene has contributions from many, see AUTHORS
+ Export source codes of clucene to c:\alpha-tpe-apps\temp\clucene. Take the latest stable revision (clucene-2.3.3.4) from <BUILD_ROOT>/Resources/Sources/clucene, and just copy it to the specified folder.
 
-CLucene is distributed under the GNU Lesser General Public License (LGPL) 
-	*or*
-the Apache License, Version 2.0
-See the LGPL.license and APACHE.license for the respective license information.
-Read COPYING for more about the license.
+Alternatevely: Take the latest stable revision (clucene-2.3.3.4) from the internet.
+(http://sourceforge.net/projects/clucene/)
 
 
-Installation
-------------
-Read the INSTALL file
+2) Open cmake gui by going to Start Menu->Programs->CMake Gui 
+[there is a problem to build clucene from cmd line that's why we are not using it]
+  Set the following values
+  -Where the source code is : C:/alpha-tpe-apps/temp/clucene
+  -Where to build binaries : C:/alpha-tpe-apps/temp/clucene/build
+
+3) Press "Configure" button
+   -In "Specify the generator for the project" choose "Visual Studio 12 2013" 
+   -"Use Default Native Compilers" radio button should be checked
+   -Press finish and wait for configure to complete
+   - You will see errors of not found paths. It is expected on step 4 we will correct them.
+
+4a) Create empty folder "clucene", so we have the path "C:/alpha-tpe-apps/lib/win32/clucene"
+We will need to use it on next step.
+
+4b) Check "Advanced" checkbox and put the following values once the configuration is complete
+You can use the "Search" textbox to quickly search for each of these properties.
+  ZLIB_INCLUDE_DIR=C:/alpha-tpe-apps/temp/clucene/src/ext/zlib
+  ZLIB_LIBRARY_DEBUG=C:/alpha-tpe-apps/temp/zlib-1.2.8/build_2/zlibd.lib  --> Ensure to select .lib and not .dll!
+  ZLIB_LIBRARY_RELEASE=C:/alpha-tpe-apps/temp/zlib-1.2.8/build_1/zlib.lib  --> Ensure to select .lib and not .dll! 
+  Boost_DIR=C:/alpha-tpe-apps/temp/clucene/src/ext/boost
+  CMAKE_INSTALL_PREFIX=C:/alpha-tpe-apps/lib/win32/clucene
+
+5) Press "Configure" and once finished Press "Generate" button.
+
+6) Go to the C:/alpha-tpe-apps/temp/clucene/build
+
+7) Open clucene solution in the MS Visual C++ Express 2013 Express Edition IDE.
+  (C:/alpha-tpe-apps/temp/clucene/build/clucene.sln)
+  
+  Accept project upgrade to 2013 version.
+
+8) Build project clucene-core with debug and release configurations.
+  - build only clucene-core by right-clicking on "clucene-core" on Solution Explorer and clicking on Build.
+  
+Do this twice, first by selecting "Release" on and then selecting "Debug" on the TOOLBAR.
 
 
-Mailing List
-------------
-Questions and discussion should be directed to the CLucene mailing list
-  at clucene-developers@lists.sourceforge.net  
-Find subscription instructions at 
-  http://lists.sourceforge.net/lists/listinfo/clucene-developers
-Suggestions and bug reports can be made on our bug tracking database
-  (http://sourceforge.net/tracker/?group_id=80013&atid=558446)
+9) Build project INSTALL with debug and release configurations.
+ - build only INSTALL by right-clicking on "INSTALL" on Solution Explorer and clicking on Build.
+ 
+Do this twice, first by selecting "Release" on and then selecting "Debug" on the TOOLBAR.
 
-
-The latest version
-------------------
-Details of the latest version can be found on the CLucene sourceforge project
-web site: http://www.sourceforge.net/projects/clucene
-
-
-Documentation
--------------
-You can build your own documentation by running 'make DoxygenDoc' from your 
-'out-of-source' cmake-configured build directory.
-CLucene is a very close port of Java Lucene, so you can also try looking at the
-Java Docs on http://lucene.apache.org/java/
-There is an online version (which won't be as up to date as if you build your
-own) at http://clucene.sourceforge.net/doc/html/
-
-
-Acknowledgments
-----------------
-The Apache Lucene project is the basis for this software, so the biggest
-acknoledgment goes to that project.
-
-We wish to acknowledge the following copyrighted works that
-make up portions of the CLucene software:
-
-This software contains code derived from the RSA Data Security
-Inc. MD5 Message-Digest Algorithm.
-
-CLucene relies heavily on the use of cmake to provide a stable build environment.
-
+10) Now the previously empty folder, "C:\alpha-tpe-apps\lib\win32\clucene\lib",
+ will have all libraries needed to compile our project.
+copy clucene-core.dll and clucene-shared.dll to C:\alpha-tpe-apps\dev\release-producer\assets\win\clucene
