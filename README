@@ -7,6 +7,8 @@ Latest versision is cmake-3.4.2-win32-x86.exe for windows
 
 Alternatevely: Take the latest stable revision (clucene-2.3.3.4) from the internet.
 (http://sourceforge.net/projects/clucene/)
+NOTE: While there is no official support for VS2015, the source code here:
+https://github.com/HavenDV/clucene
 
 
 2) Open cmake gui by going to Start Menu->Programs->CMake Gui 
@@ -16,7 +18,7 @@ Alternatevely: Take the latest stable revision (clucene-2.3.3.4) from the intern
   -Where to build binaries : C:/alpha-tpe-apps/temp/clucene/build
 
 3) Press "Configure" button
-   -In "Specify the generator for the project" choose "Visual Studio 12 2013" 
+   -In "Specify the generator for the project" choose "Visual Studio 14 2015" 
    -"Use Default Native Compilers" radio button should be checked
    -Press finish and wait for configure to complete
    - You will see errors of not found paths. It is expected on step 4 we will correct them.
@@ -36,10 +38,10 @@ You can use the "Search" textbox to quickly search for each of these properties.
 
 6) Go to the C:/alpha-tpe-apps/temp/clucene/build
 
-7) Open clucene solution in the MS Visual C++ Express 2013 Express Edition IDE.
+7) Open clucene solution in the MS Visual C++ Express 2015 Community Edition IDE.
   (C:/alpha-tpe-apps/temp/clucene/build/clucene.sln)
   
-  Accept project upgrade to 2013 version.
+  Accept project upgrade to 2015 version if needed.
 
 8) Build project clucene-core with debug and release configurations.
   - build only clucene-core by right-clicking on "clucene-core" on Solution Explorer and clicking on Build.
